@@ -1,0 +1,9 @@
+@import url("global.css");
+@import url("home.css");
+
+.container-about-btn {
+    left: -15px;
+}
+.container-about-title {
+    font-size: var(--header-font);
+}

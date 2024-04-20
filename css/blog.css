@@ -1,0 +1,9 @@
+@import url("global.css");
+@import url("home.css");
+@import url("destination.css");
+
+
+.container-destination-type-btn {
+    width: var(--button-width-150);
+    margin-left: var(--margin-20);
+}

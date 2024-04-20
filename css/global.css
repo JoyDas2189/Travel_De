@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --header-font: 50px;
+    --para-font: 25px;
+    --font-20: 20px;
+    --font-weight-600: 600;
+    --margin-100: 100px;
+    --margin-50: 50px;
+    --margin-20: 20px;
+    --margin-25: 30px;
+    --padding-20: 20px;
+    --primary-color: #50727B;
+    --secondary-color: #344955;
+    --font-color: #3D3B40;
+    --carousel-btn: 2vw;
+    --button-width-150: 150px;
+    --button-width-100: 100px;
+    --button-height-60: 60px;
+    --card-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Work Sans", sans-serif;
+    color: var(--font-color);
+}
+.cards-margin-50 {
+    margin-top: var(--margin-50);
+}
+.card-margin-100 {
+    margin-top: var(--margin-100);
+}
+.cards-margin-20 {
+    gap: var(--margin-20);
+}
+.center-text {
+    text-align: center;
+}
+.button-background {
+    background-color: var(--primary-color);
+}
+.button-background:hover {
+    background-color: var(--secondary-color);
+}
+.font-20 {
+    font-size: var(--font-20);
+}
+.secondary-color{
+    color: var(--secondary-color);
+}

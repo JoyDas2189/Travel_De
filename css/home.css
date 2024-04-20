@@ -1,0 +1,65 @@
+.navBar-nav-links {
+  margin-right: var(--margin-50);
+}
+.carousel .carousel-inner {
+  width: 100%;
+  margin: auto;
+}
+.carousel .carousel-inner .carousel-item img {
+  height: calc(100vh - 56px);
+}
+.carousel .carousel-inner .carousel-item h1 {
+  font-size: var(--header-font);
+}
+.carousel .carousel-inner .carousel-item p {
+  font-size: var(--para-font);
+}
+.carousel-control-prev-icon {
+  width: var(--carousel-btn);
+  height: var(--carousel-btn);
+}
+.carousel-control-next-icon {
+  width: var(--carousel-btn);
+  height: var(--carousel-btn);
+}
+.contailer-gallery-heading {
+  text-align: center;
+  font-size: var(--header-font);
+}
+.container-suggested-heading {
+  font-size: var(--header-font);
+  text-align: center;
+}
+.carousel-font-color {
+  color: white;
+}
+.sugg-card {
+  box-shadow: var(--card-shadow);
+  margin-bottom: var(--margin-25);
+}
+.container-suggested-card-title {
+  height: 50px;
+}
+.container-suggested-card-description {
+  height: 120px;
+}
+/* .container-suggested-card-img {
+  height: 180px;
+} */
+
+
+
+.container-cards-btn {
+  width: var(--button-width-150);
+  height: var(--button-height-60);
+  background-color: var(--primary-color);
+}
+.container-cards-btn:hover {
+  background-color: var(--secondary-color);
+}
+.container-blog-title {
+  text-align: center;
+}
+.footer h6 {
+  color: #6c757d;
+}

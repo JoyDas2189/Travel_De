@@ -1,0 +1,41 @@
+@import url("global.css");
+@import url("home.css");
+
+.container-font {
+    color: var(--font-color);
+}
+.container-contact-cards {
+    /* margin-top: 350px; */
+    gap: var(--margin-20);
+}
+.container-contact-phone {
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: var(--font-weight-600);
+}
+.container-contact-phone:hover {
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: var(--font-weight-600);
+    text-decoration: none;
+}
+.container-contact-email {
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: var(--font-weight-600);
+}
+.container-contact-email:hover {
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: var(--font-weight-600);
+    text-decoration: none;
+}
+.container-destination-type-bttn {
+    margin-bottom: var(--margin-20);
+}
+.container-font-title {
+    height: 50px;
+}
+.container-font-description {
+    height: 150px;
+}
